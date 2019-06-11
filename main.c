@@ -1,12 +1,23 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include<math.h>
+    #include <stdio.h>
+     int main()
+    {
+       int n, reverse = 0, t;
+       //printf("Enter a number to check if it is a palindrome or not\n");
+       scanf("%d", &n);
 
-int main()
-{
-    int n,k,cube;
-    scanf("%d %d",&n,&k);
-    cube=pow(n,k);
-    printf("%d",cube);
-    return 0;
-}
+       t = n;
+
+       while (t != 0)
+       {
+          reverse = reverse * 10;
+          reverse = reverse + t%10;
+          t = t/10;
+       }
+
+       if (n == reverse)
+          printf("yes");
+       else
+          printf("no");
+
+       return 0;
+    }
