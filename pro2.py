@@ -1,4 +1,4 @@
-e=int(input())
+eva=int(input())
 a=input("")
 c=list(a.split(" "))
 c.sort(reverse=True)
