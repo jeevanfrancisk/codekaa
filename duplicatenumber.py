@@ -1,4 +1,4 @@
-N=int(input())
+A=int(input())
 a=input("")
 a1=list(a.split(" "))
 b=[]
@@ -10,5 +10,5 @@ for i in range(0,len(a1)):
 if len(b)==0:
   print("unique")
 else:
-c=" ".join(b)
+  c=" ".join(b)
 print(c)
