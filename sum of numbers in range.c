@@ -2,10 +2,11 @@
 #include<stdlib.h>
 #include<string.h>
 int main()
+  
 {
-int n,sum=0,k,arr[50];
-  scanf("%d %d",&n,&k);
-for(int i=1;i<n;i++)
+int f,sum=0,k,arr[50];
+  scanf("%d %d",&f,&k);
+for(int i=1;i<f;i++)
 {
   scanf("%d\t",&arr[i]);
 }
